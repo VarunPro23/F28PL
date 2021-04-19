@@ -1,0 +1,39 @@
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:0:add_test1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:0:add_test1 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:0:add_test1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:17:length_test1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:17:length_test1 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:17:length_test1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:18:length_test2.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:18:length_test2 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:18:length_test2.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:19:add_zero.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: law add_zero: 1000 relevant cases (1000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:19:add_zero is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:19:add_zero.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:20:mult_test_zero.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: law mult_test_zero: 1000 relevant cases (1000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:20:mult_test_zero is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:20:mult_test_zero.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:21:mult1_test_zero.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: law mult1_test_zero: 1000 relevant cases (1000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:21:mult1_test_zero is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:21:mult1_test_zero.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:22:mult2_test_zero.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: law mult2_test_zero: 1000 relevant cases (1000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:22:mult2_test_zero is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:22:mult2_test_zero.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:23:append_test_empty.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: law append_test_empty: 1000 relevant cases (1000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:23:append_test_empty is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:23:append_test_empty.

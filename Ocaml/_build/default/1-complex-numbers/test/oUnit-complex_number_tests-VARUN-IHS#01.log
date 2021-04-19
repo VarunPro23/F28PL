@@ -1,0 +1,33 @@
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test complex_number_tests:0:complex_add_test1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test complex_number_tests:0:complex_add_test1 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test complex_number_tests:0:complex_add_test1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test complex_number_tests:2:complex_mult_test1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test complex_number_tests:2:complex_mult_test1 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test complex_number_tests:2:complex_mult_test1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test complex_number_tests:3:complex_mult_test2.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test complex_number_tests:3:complex_mult_test2 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test complex_number_tests:3:complex_mult_test2.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test complex_number_tests:4:complex_mult_test3.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test complex_number_tests:4:complex_mult_test3 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test complex_number_tests:4:complex_mult_test3.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test complex_number_tests:5:complex_mult_test4.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test complex_number_tests:5:complex_mult_test4 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test complex_number_tests:5:complex_mult_test4.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test complex_number_tests:6:complex_add_commutative.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: law complex_add_commutative: 10000 relevant cases (10000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test complex_number_tests:6:complex_add_commutative is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test complex_number_tests:6:complex_add_commutative.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test complex_number_tests:8:complex_add_associative.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: law complex_add_associative: 10000 relevant cases (10000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test complex_number_tests:8:complex_add_associative is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test complex_number_tests:8:complex_add_associative.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test complex_number_tests:10:mult_distributive.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: law mult_distributive: 10000 relevant cases (10000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test complex_number_tests:10:mult_distributive is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test complex_number_tests:10:mult_distributive.

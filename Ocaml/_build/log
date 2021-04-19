@@ -1,0 +1,215 @@
+# dune runtest --profile release
+# OCAMLPARAM: unset
+# Workspace root: /home/varun/f28pl-2020-21-ocaml-coursework-dubai
+$ /usr/bin/nproc > /tmp/dune835183.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache
+$ /usr/bin/ocamlc.opt -config > /tmp/dune2cd316.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/home/varun/.opam/default/lib/toplevel"
+#  ; ocaml_bin = External "/usr/bin"
+#  ; ocaml = Ok External "/home/varun/.opam/default/bin/ocaml"
+#  ; ocamlc = External "/usr/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/usr/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/usr/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/usr/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/home/varun/.opam/default/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.08.1"
+#      ; standard_library_default = "/usr/lib/ocaml"
+#      ; standard_library = "/usr/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "x86_64-linux-gnu-gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "x86_64-linux-gnu-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "x86_64-linux-gnu-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = [ "-pg" ]
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "x86_64-linux-gnu-as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = true
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = false
+#      ; exec_magic_number = "Caml1999X025"
+#      ; cmi_magic_number = "Caml1999I025"
+#      ; cmo_magic_number = "Caml1999O025"
+#      ; cma_magic_number = "Caml1999A025"
+#      ; cmx_magic_number = "Caml1999Y025"
+#      ; cmxa_magic_number = "Caml1999Z025"
+#      ; ast_impl_magic_number = "Caml1999M025"
+#      ; ast_intf_magic_number = "Caml1999N025"
+#      ; cmxs_magic_number = "Caml1999D025"
+#      ; cmt_magic_number = "Caml1999T025"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 1-complex-numbers/lib/.ComplexNumbers.objs/byte -no-alias-deps -o 1-complex-numbers/lib/.ComplexNumbers.objs/byte/complexNumbers.cmo -c -impl 1-complex-numbers/lib/ComplexNumbers.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 2-sequence-arithmetic/lib/.SequenceArithmetic.objs/byte -no-alias-deps -o 2-sequence-arithmetic/lib/.SequenceArithmetic.objs/byte/sequenceArithmetic.cmo -c -impl 2-sequence-arithmetic/lib/SequenceArithmetic.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 3-matrices/lib/.Matrices.objs/byte -no-alias-deps -o 3-matrices/lib/.Matrices.objs/byte/matrices.cmo -c -impl 3-matrices/lib/Matrices.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 4-essay-question/lib/.Essay.objs/byte -no-alias-deps -o 4-essay-question/lib/.Essay.objs/byte/essay.cmo -c -impl 4-essay-question/lib/Essay.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 5-isomorphic-functions/lib/.Functions.objs/byte -no-alias-deps -o 5-isomorphic-functions/lib/.Functions.objs/byte/functions.cmo -c -impl 5-isomorphic-functions/lib/Functions.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 6-Church-numerals/lib/.ChurchNumerals.objs/byte -no-alias-deps -o 6-Church-numerals/lib/.ChurchNumerals.objs/byte/churchNumerals.cmo -c -impl 6-Church-numerals/lib/ChurchNumerals.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 7-sums/lib/.Sums.objs/byte -no-alias-deps -o 7-sums/lib/.Sums.objs/byte/sums.cmo -c -impl 7-sums/lib/Sums.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 1-complex-numbers/lib/.ComplexNumbers.objs/byte -I 1-complex-numbers/lib/.ComplexNumbers.objs/native -intf-suffix .ml -no-alias-deps -o 1-complex-numbers/lib/.ComplexNumbers.objs/native/complexNumbers.cmx -c -impl 1-complex-numbers/lib/ComplexNumbers.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 2-sequence-arithmetic/lib/.SequenceArithmetic.objs/byte -I 2-sequence-arithmetic/lib/.SequenceArithmetic.objs/native -intf-suffix .ml -no-alias-deps -o 2-sequence-arithmetic/lib/.SequenceArithmetic.objs/native/sequenceArithmetic.cmx -c -impl 2-sequence-arithmetic/lib/SequenceArithmetic.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 5-isomorphic-functions/lib/.Functions.objs/byte -I 5-isomorphic-functions/lib/.Functions.objs/native -intf-suffix .ml -no-alias-deps -o 5-isomorphic-functions/lib/.Functions.objs/native/functions.cmx -c -impl 5-isomorphic-functions/lib/Functions.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 4-essay-question/lib/.Essay.objs/byte -I 4-essay-question/lib/.Essay.objs/native -intf-suffix .ml -no-alias-deps -o 4-essay-question/lib/.Essay.objs/native/essay.cmx -c -impl 4-essay-question/lib/Essay.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 6-Church-numerals/lib/.ChurchNumerals.objs/byte -I 6-Church-numerals/lib/.ChurchNumerals.objs/native -intf-suffix .ml -no-alias-deps -o 6-Church-numerals/lib/.ChurchNumerals.objs/native/churchNumerals.cmx -c -impl 6-Church-numerals/lib/ChurchNumerals.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 3-matrices/lib/.Matrices.objs/byte -I 3-matrices/lib/.Matrices.objs/native -intf-suffix .ml -no-alias-deps -o 3-matrices/lib/.Matrices.objs/native/matrices.cmx -c -impl 3-matrices/lib/Matrices.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -a -o 2-sequence-arithmetic/lib/SequenceArithmetic.cmxa 2-sequence-arithmetic/lib/.SequenceArithmetic.objs/native/sequenceArithmetic.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -a -o 1-complex-numbers/lib/ComplexNumbers.cmxa 1-complex-numbers/lib/.ComplexNumbers.objs/native/complexNumbers.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -a -o 5-isomorphic-functions/lib/Functions.cmxa 5-isomorphic-functions/lib/.Functions.objs/native/functions.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 7-sums/lib/.Sums.objs/byte -I 7-sums/lib/.Sums.objs/native -intf-suffix .ml -no-alias-deps -o 7-sums/lib/.Sums.objs/native/sums.cmx -c -impl 7-sums/lib/Sums.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -a -o 4-essay-question/lib/Essay.cmxa 4-essay-question/lib/.Essay.objs/native/essay.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -a -o 3-matrices/lib/Matrices.cmxa 3-matrices/lib/.Matrices.objs/native/matrices.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -a -o 6-Church-numerals/lib/ChurchNumerals.cmxa 6-Church-numerals/lib/.ChurchNumerals.objs/native/churchNumerals.cmx)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 2-sequence-arithmetic/test/.SequenceArithmeticTests.eobjs/byte -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 2-sequence-arithmetic/lib/.SequenceArithmetic.objs/byte -I 2-sequence-arithmetic/lib/.SequenceArithmetic.objs/native -no-alias-deps -o 2-sequence-arithmetic/test/.SequenceArithmeticTests.eobjs/byte/sequenceArithmeticTests.cmo -c -impl 2-sequence-arithmetic/test/SequenceArithmeticTests.ml)
+> File "2-sequence-arithmetic/test/SequenceArithmeticTests.ml", line 139, characters 6-9:
+> 139 |   let sum = List.fold_left (+) 0 in
+>             ^^^
+> Warning 26: unused variable sum.
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 5-isomorphic-functions/test/.FunctionsTests.eobjs/byte -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 5-isomorphic-functions/lib/.Functions.objs/byte -I 5-isomorphic-functions/lib/.Functions.objs/native -no-alias-deps -o 5-isomorphic-functions/test/.FunctionsTests.eobjs/byte/functionsTests.cmo -c -impl 5-isomorphic-functions/test/FunctionsTests.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 1-complex-numbers/test/.ComplexNumbersTests.eobjs/byte -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 1-complex-numbers/lib/.ComplexNumbers.objs/byte -I 1-complex-numbers/lib/.ComplexNumbers.objs/native -no-alias-deps -o 1-complex-numbers/test/.ComplexNumbersTests.eobjs/byte/complexNumbersTests.cmo -c -impl 1-complex-numbers/test/ComplexNumbersTests.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 4-essay-question/test/.EssayTests.eobjs/byte -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 4-essay-question/lib/.Essay.objs/byte -I 4-essay-question/lib/.Essay.objs/native -no-alias-deps -o 4-essay-question/test/.EssayTests.eobjs/byte/essayTests.cmo -c -impl 4-essay-question/test/EssayTests.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -a -o 7-sums/lib/Sums.cmxa 7-sums/lib/.Sums.objs/native/sums.cmx)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 6-Church-numerals/test/.ChurchNumeralsTests.eobjs/byte -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 6-Church-numerals/lib/.ChurchNumerals.objs/byte -I 6-Church-numerals/lib/.ChurchNumerals.objs/native -no-alias-deps -o 6-Church-numerals/test/.ChurchNumeralsTests.eobjs/byte/churchNumeralsTests.cmo -c -impl 6-Church-numerals/test/ChurchNumeralsTests.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 3-matrices/test/.MatricesTests.eobjs/byte -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 3-matrices/lib/.Matrices.objs/byte -I 3-matrices/lib/.Matrices.objs/native -no-alias-deps -o 3-matrices/test/.MatricesTests.eobjs/byte/matricesTests.cmo -c -impl 3-matrices/test/MatricesTests.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 2-sequence-arithmetic/test/.SequenceArithmeticTests.eobjs/byte -I 2-sequence-arithmetic/test/.SequenceArithmeticTests.eobjs/native -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 2-sequence-arithmetic/lib/.SequenceArithmetic.objs/byte -I 2-sequence-arithmetic/lib/.SequenceArithmetic.objs/native -intf-suffix .ml -no-alias-deps -o 2-sequence-arithmetic/test/.SequenceArithmeticTests.eobjs/native/sequenceArithmeticTests.cmx -c -impl 2-sequence-arithmetic/test/SequenceArithmeticTests.ml)
+> File "2-sequence-arithmetic/test/SequenceArithmeticTests.ml", line 139, characters 6-9:
+> 139 |   let sum = List.fold_left (+) 0 in
+>             ^^^
+> Warning 26: unused variable sum.
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 5-isomorphic-functions/test/.FunctionsTests.eobjs/byte -I 5-isomorphic-functions/test/.FunctionsTests.eobjs/native -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 5-isomorphic-functions/lib/.Functions.objs/byte -I 5-isomorphic-functions/lib/.Functions.objs/native -intf-suffix .ml -no-alias-deps -o 5-isomorphic-functions/test/.FunctionsTests.eobjs/native/functionsTests.cmx -c -impl 5-isomorphic-functions/test/FunctionsTests.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I 7-sums/test/.SumsTests.eobjs/byte -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 7-sums/lib/.Sums.objs/byte -I 7-sums/lib/.Sums.objs/native -no-alias-deps -o 7-sums/test/.SumsTests.eobjs/byte/sumsTests.cmo -c -impl 7-sums/test/SumsTests.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 4-essay-question/test/.EssayTests.eobjs/byte -I 4-essay-question/test/.EssayTests.eobjs/native -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 4-essay-question/lib/.Essay.objs/byte -I 4-essay-question/lib/.Essay.objs/native -intf-suffix .ml -no-alias-deps -o 4-essay-question/test/.EssayTests.eobjs/native/essayTests.cmx -c -impl 4-essay-question/test/EssayTests.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 1-complex-numbers/test/.ComplexNumbersTests.eobjs/byte -I 1-complex-numbers/test/.ComplexNumbersTests.eobjs/native -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 1-complex-numbers/lib/.ComplexNumbers.objs/byte -I 1-complex-numbers/lib/.ComplexNumbers.objs/native -intf-suffix .ml -no-alias-deps -o 1-complex-numbers/test/.ComplexNumbersTests.eobjs/native/complexNumbersTests.cmx -c -impl 1-complex-numbers/test/ComplexNumbersTests.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 6-Church-numerals/test/.ChurchNumeralsTests.eobjs/byte -I 6-Church-numerals/test/.ChurchNumeralsTests.eobjs/native -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 6-Church-numerals/lib/.ChurchNumerals.objs/byte -I 6-Church-numerals/lib/.ChurchNumerals.objs/native -intf-suffix .ml -no-alias-deps -o 6-Church-numerals/test/.ChurchNumeralsTests.eobjs/native/churchNumeralsTests.cmx -c -impl 6-Church-numerals/test/ChurchNumeralsTests.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 7-sums/test/.SumsTests.eobjs/byte -I 7-sums/test/.SumsTests.eobjs/native -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 7-sums/lib/.Sums.objs/byte -I 7-sums/lib/.Sums.objs/native -intf-suffix .ml -no-alias-deps -o 7-sums/test/.SumsTests.eobjs/native/sumsTests.cmx -c -impl 7-sums/test/SumsTests.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I 3-matrices/test/.MatricesTests.eobjs/byte -I 3-matrices/test/.MatricesTests.eobjs/native -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I 3-matrices/lib/.Matrices.objs/byte -I 3-matrices/lib/.Matrices.objs/native -intf-suffix .ml -no-alias-deps -o 3-matrices/test/.MatricesTests.eobjs/native/matricesTests.cmx -c -impl 3-matrices/test/MatricesTests.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -o 5-isomorphic-functions/test/FunctionsTests.exe 5-isomorphic-functions/lib/Functions.cmxa /usr/lib/ocaml/unix.cmxa -I /usr/lib/ocaml /home/varun/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /home/varun/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/varun/.opam/default/lib/ounit2/oUnit.cmxa /home/varun/.opam/default/lib/qcheck-core/qcheck_core.cmxa /home/varun/.opam/default/lib/qcheck-core/runner/qcheck_runner.cmxa /home/varun/.opam/default/lib/qcheck-ounit/qcheck_ounit.cmxa /home/varun/.opam/default/lib/qcheck/qcheck.cmxa 5-isomorphic-functions/test/.FunctionsTests.eobjs/native/functionsTests.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -o 2-sequence-arithmetic/test/SequenceArithmeticTests.exe 2-sequence-arithmetic/lib/SequenceArithmetic.cmxa /usr/lib/ocaml/unix.cmxa -I /usr/lib/ocaml /home/varun/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /home/varun/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/varun/.opam/default/lib/ounit2/oUnit.cmxa /home/varun/.opam/default/lib/qcheck-core/qcheck_core.cmxa /home/varun/.opam/default/lib/qcheck-core/runner/qcheck_runner.cmxa /home/varun/.opam/default/lib/qcheck-ounit/qcheck_ounit.cmxa /home/varun/.opam/default/lib/qcheck/qcheck.cmxa 2-sequence-arithmetic/test/.SequenceArithmeticTests.eobjs/native/sequenceArithmeticTests.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -o 4-essay-question/test/EssayTests.exe 4-essay-question/lib/Essay.cmxa /usr/lib/ocaml/unix.cmxa -I /usr/lib/ocaml /home/varun/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /home/varun/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/varun/.opam/default/lib/ounit2/oUnit.cmxa /home/varun/.opam/default/lib/qcheck-core/qcheck_core.cmxa /home/varun/.opam/default/lib/qcheck-core/runner/qcheck_runner.cmxa /home/varun/.opam/default/lib/qcheck-ounit/qcheck_ounit.cmxa /home/varun/.opam/default/lib/qcheck/qcheck.cmxa 4-essay-question/test/.EssayTests.eobjs/native/essayTests.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -o 1-complex-numbers/test/ComplexNumbersTests.exe 1-complex-numbers/lib/ComplexNumbers.cmxa /usr/lib/ocaml/unix.cmxa -I /usr/lib/ocaml /home/varun/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /home/varun/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/varun/.opam/default/lib/ounit2/oUnit.cmxa /home/varun/.opam/default/lib/qcheck-core/qcheck_core.cmxa /home/varun/.opam/default/lib/qcheck-core/runner/qcheck_runner.cmxa /home/varun/.opam/default/lib/qcheck-ounit/qcheck_ounit.cmxa /home/varun/.opam/default/lib/qcheck/qcheck.cmxa 1-complex-numbers/test/.ComplexNumbersTests.eobjs/native/complexNumbersTests.cmx)
+$ (cd _build/default/5-isomorphic-functions/test && ./FunctionsTests.exe)
+> ....
+> Ran: 4 tests in: 0.14 seconds.
+> OK
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -o 6-Church-numerals/test/ChurchNumeralsTests.exe 6-Church-numerals/lib/ChurchNumerals.cmxa /usr/lib/ocaml/unix.cmxa -I /usr/lib/ocaml /home/varun/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /home/varun/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/varun/.opam/default/lib/ounit2/oUnit.cmxa /home/varun/.opam/default/lib/qcheck-core/qcheck_core.cmxa /home/varun/.opam/default/lib/qcheck-core/runner/qcheck_runner.cmxa /home/varun/.opam/default/lib/qcheck-ounit/qcheck_ounit.cmxa /home/varun/.opam/default/lib/qcheck/qcheck.cmxa 6-Church-numerals/test/.ChurchNumeralsTests.eobjs/native/churchNumeralsTests.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -o 3-matrices/test/MatricesTests.exe 3-matrices/lib/Matrices.cmxa /usr/lib/ocaml/unix.cmxa -I /usr/lib/ocaml /home/varun/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /home/varun/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/varun/.opam/default/lib/ounit2/oUnit.cmxa /home/varun/.opam/default/lib/qcheck-core/qcheck_core.cmxa /home/varun/.opam/default/lib/qcheck-core/runner/qcheck_runner.cmxa /home/varun/.opam/default/lib/qcheck-ounit/qcheck_ounit.cmxa /home/varun/.opam/default/lib/qcheck/qcheck.cmxa 3-matrices/test/.MatricesTests.eobjs/native/matricesTests.cmx)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -o 7-sums/test/SumsTests.exe 7-sums/lib/Sums.cmxa /usr/lib/ocaml/unix.cmxa -I /usr/lib/ocaml /home/varun/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /home/varun/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/varun/.opam/default/lib/ounit2/oUnit.cmxa /home/varun/.opam/default/lib/qcheck-core/qcheck_core.cmxa /home/varun/.opam/default/lib/qcheck-core/runner/qcheck_runner.cmxa /home/varun/.opam/default/lib/qcheck-ounit/qcheck_ounit.cmxa /home/varun/.opam/default/lib/qcheck/qcheck.cmxa 7-sums/test/.SumsTests.eobjs/native/sumsTests.cmx)
+$ (cd _build/default/4-essay-question/test && ./EssayTests.exe)
+> ........................
+> Ran: 24 tests in: 0.13 seconds.
+> OK
+$ (cd _build/default/2-sequence-arithmetic/test && ./SequenceArithmeticTests.exe)
+> ............
+> Ran: 12 tests in: 0.46 seconds.
+> OK
+$ (cd _build/default/1-complex-numbers/test && ./ComplexNumbersTests.exe)
+> .............
+> Ran: 13 tests in: 0.14 seconds.
+> OK
+$ (cd _build/default/6-Church-numerals/test && ./ChurchNumeralsTests.exe)
+> ...
+> Ran: 3 tests in: 0.15 seconds.
+> OK
+$ (cd _build/default/7-sums/test && ./SumsTests.exe)
+> ....E.E.
+> ==============================================================================
+> Error: algebra_tests:7:compare_sorted_comm.
+>
+> File "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/_build/default/7-sums/test/oUnit-algebra_tests-VARUN-IHS#02.log", line 20, characters 1-1:
+> Error: algebra_tests:7:compare_sorted_comm (in the log).
+>
+> Raised at file "src/core/QCheck.ml", line 1720, characters 6-82
+> Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> test `compare_sorted_comm` raised exception `Failure("not impl")`
+> on `Pair (x0, x7)`
+> Raised at file "stdlib.ml", line 29, characters 17-33
+> Called from file "7-sums/lib/Sums.ml", line 150, characters 33-49
+> Called from file "src/core/QCheck.ml", line 1396, characters 9-14
+> Called from file "src/core/QCheck.ml", line 1494, characters 22-50
+>
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: algebra_tests:5:flatten_sorted_test1.
+>
+> File "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/_build/default/7-sums/test/oUnit-algebra_tests-VARUN-IHS#01.log", line 11, characters 1-1:
+> Error: algebra_tests:5:flatten_sorted_test1 (in the log).
+>
+> Raised at file "stdlib.ml", line 29, characters 17-33
+> Called from file "7-sums/test/SumsTests.ml", line 44, characters 15-86
+> Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not impl")
+> ------------------------------------------------------------------------------
+> Ran: 8 tests in: 0.18 seconds.
+> FAILED: Cases: 8 Tried: 8 Errors: 2 Failures: 0 Skip:  0 Todo: 0 Timeouts: 0.
+[1]
+$ (cd _build/default/3-matrices/test && ./MatricesTests.exe)
+> ..............................
+> Ran: 30 tests in: 4.26 seconds.
+> OK

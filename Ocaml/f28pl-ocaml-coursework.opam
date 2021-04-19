@@ -1,0 +1,17 @@
+opam-version: "1.0"
+name: "f28pl-ocaml"
+version: "0.1"
+synopsis: "One-line description"
+description: """
+7 parts to the Programming Languages F28PL Ocaml coursework
+"""
+maintainer: "Rob Stewart <R.Stewart@hw.ac.uk>"
+authors: "Rob Stewart <R.Stewart@hw.ac.uk>"
+license: "GPL3"
+homepage: "https://gitlab-student.macs.hw.ac.uk/f28pl-2020-21/f28pl-2020-21-ocaml-coursework"
+bug-reports: "https://gitlab-student.macs.hw.ac.uk/f28pl-2020-21/f28pl-2020-21-ocaml-coursework/issues"
+depends: [ "ocaml"
+           "ocamlfind"
+           "ounit" {= "2.0.8"}
+           "qcheck" {= "0.9"}
+           "dune" ]

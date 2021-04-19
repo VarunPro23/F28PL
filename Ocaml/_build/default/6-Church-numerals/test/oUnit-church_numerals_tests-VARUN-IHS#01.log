@@ -1,0 +1,9 @@
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test church_numerals_tests:0:c2i_0.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test church_numerals_tests:0:c2i_0 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test church_numerals_tests:0:c2i_0.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Start test church_numerals_tests:2:mult_distributive.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: law mult_distributive: 10000 relevant cases (10000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: Test church_numerals_tests:2:mult_distributive is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#01 I: End test church_numerals_tests:2:mult_distributive.

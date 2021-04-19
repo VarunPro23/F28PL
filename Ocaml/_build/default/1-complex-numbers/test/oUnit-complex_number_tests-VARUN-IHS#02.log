@@ -1,0 +1,27 @@
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test complex_number_tests:1:complex_add_test2.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test complex_number_tests:1:complex_add_test2 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test complex_number_tests:1:complex_add_test2.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test complex_number_tests:7:complex_mult_commutative.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: law complex_mult_commutative: 10000 relevant cases (10000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test complex_number_tests:7:complex_mult_commutative is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test complex_number_tests:7:complex_mult_commutative.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test complex_number_tests:9:mult_associative.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: law mult_associative: 10000 relevant cases (10000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test complex_number_tests:9:mult_associative is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test complex_number_tests:9:mult_associative.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test complex_number_tests:11:complex_mult_zero.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: law complex_mult_zero: 10000 relevant cases (10000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test complex_number_tests:11:complex_mult_zero is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test complex_number_tests:11:complex_mult_zero.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test complex_number_tests:12:complex_add_identity.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: law complex_add_identity: 10000 relevant cases (10000 total)
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test complex_number_tests:12:complex_add_identity is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test complex_number_tests:12:complex_add_identity.

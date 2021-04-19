@@ -1,0 +1,57 @@
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:1:is_matrix_empty2.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:1:is_matrix_empty2 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:1:is_matrix_empty2.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:4:is_matrix_three_rows.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:4:is_matrix_three_rows is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:4:is_matrix_three_rows.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:7:is_matrix_no1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:7:is_matrix_no1 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:7:is_matrix_no1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:9:is_matrix_no3.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:9:is_matrix_no3 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:9:is_matrix_no3.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:11:matrix_shape_two_rows_three_columns.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:11:matrix_shape_two_rows_three_columns is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:11:matrix_shape_two_rows_three_columns.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:12:matrix_shape_one_row_one_column.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:12:matrix_shape_one_row_one_column is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:12:matrix_shape_one_row_one_column.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:15:matrix_add_empties.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:15:matrix_add_empties is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:15:matrix_add_empties.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:17:matrix_add_4x1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:17:matrix_add_4x1 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:17:matrix_add_4x1.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:19:matrix_mult_empty.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:19:matrix_mult_empty is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:19:matrix_mult_empty.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:21:matrix_mult_3x3.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:21:matrix_mult_3x3 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:21:matrix_mult_3x3.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:23:matrix_mult_2x4.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Test matrices_tests:23:matrix_mult_2x4 is successful.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: End test matrices_tests:23:matrix_mult_2x4.
+2020-12-09T09:02:01+00:00 VARUN-IHS#02 I: Start test matrices_tests:25:associative_addition.
+2020-12-09T09:02:02+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:02+00:00 VARUN-IHS#02 I: law associative_addition: 10000 relevant cases (10000 total)
+2020-12-09T09:02:02+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:02+00:00 VARUN-IHS#02 I: Test matrices_tests:25:associative_addition is successful.
+2020-12-09T09:02:02+00:00 VARUN-IHS#02 I: End test matrices_tests:25:associative_addition.
+2020-12-09T09:02:02+00:00 VARUN-IHS#02 I: Start test matrices_tests:27:distributive_multiplication.
+2020-12-09T09:02:04+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:04+00:00 VARUN-IHS#02 I: law distributive_multiplication: 10000 relevant cases (10000 total)
+2020-12-09T09:02:04+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:04+00:00 VARUN-IHS#02 I: Test matrices_tests:27:distributive_multiplication is successful.
+2020-12-09T09:02:04+00:00 VARUN-IHS#02 I: End test matrices_tests:27:distributive_multiplication.
+2020-12-09T09:02:04+00:00 VARUN-IHS#02 I: Start test matrices_tests:28:addition_identity.
+2020-12-09T09:02:05+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:05+00:00 VARUN-IHS#02 I: law addition_identity: 10000 relevant cases (10000 total)
+2020-12-09T09:02:05+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:05+00:00 VARUN-IHS#02 I: Test matrices_tests:28:addition_identity is successful.
+2020-12-09T09:02:05+00:00 VARUN-IHS#02 I: End test matrices_tests:28:addition_identity.
+2020-12-09T09:02:05+00:00 VARUN-IHS#02 I: Start test matrices_tests:29:multiplication_zeros.
+2020-12-09T09:02:06+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:06+00:00 VARUN-IHS#02 I: law multiplication_zeros: 10000 relevant cases (10000 total)
+2020-12-09T09:02:06+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:02:06+00:00 VARUN-IHS#02 I: Test matrices_tests:29:multiplication_zeros is successful.
+2020-12-09T09:02:06+00:00 VARUN-IHS#02 I: End test matrices_tests:29:multiplication_zeros.
