@@ -1,7 +1,0 @@
-(test
-  (name SumsTests)
-  (libraries Sums oUnit qcheck))
-
-(env
-  (dev
-    (flags (:standard -warn-error -A))))
