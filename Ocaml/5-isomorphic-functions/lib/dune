@@ -1,0 +1,6 @@
+(library
+  (name Functions))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))

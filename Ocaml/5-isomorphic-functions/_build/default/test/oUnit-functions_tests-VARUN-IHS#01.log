@@ -1,0 +1,9 @@
+2020-11-27T15:38:28+00:00 VARUN-IHS#01 I: Start test functions_tests:0:curry_test1.
+2020-11-27T15:38:28+00:00 VARUN-IHS#01 I: Test functions_tests:0:curry_test1 is successful.
+2020-11-27T15:38:28+00:00 VARUN-IHS#01 I: End test functions_tests:0:curry_test1.
+2020-11-27T15:38:28+00:00 VARUN-IHS#01 I: Start test functions_tests:3:curry_uncurry_prop.
+2020-11-27T15:38:28+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:38:28+00:00 VARUN-IHS#01 I: law curry_uncurry_prop: 10000 relevant cases (10000 total)
+2020-11-27T15:38:28+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:38:28+00:00 VARUN-IHS#01 I: Test functions_tests:3:curry_uncurry_prop is successful.
+2020-11-27T15:38:28+00:00 VARUN-IHS#01 I: End test functions_tests:3:curry_uncurry_prop.
