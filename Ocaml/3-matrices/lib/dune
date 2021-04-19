@@ -1,0 +1,6 @@
+(library
+  (name Matrices))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))

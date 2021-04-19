@@ -1,0 +1,45 @@
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:0:is_matrix_empty1.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:0:is_matrix_empty1 is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:0:is_matrix_empty1.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:3:is_matrix_two_rows.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:3:is_matrix_two_rows is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:3:is_matrix_two_rows.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:4:is_matrix_three_rows.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:4:is_matrix_three_rows is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:4:is_matrix_three_rows.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:7:is_matrix_no1.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:7:is_matrix_no1 is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:7:is_matrix_no1.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:8:is_matrix_no2.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:8:is_matrix_no2 is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:8:is_matrix_no2.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:11:matrix_shape_two_rows_three_columns.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:11:matrix_shape_two_rows_three_columns is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:11:matrix_shape_two_rows_three_columns.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:13:matrix_shape_one_row_zero_columns.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:13:matrix_shape_one_row_zero_columns is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:13:matrix_shape_one_row_zero_columns.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:15:matrix_add_empties.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:15:matrix_add_empties is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:15:matrix_add_empties.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:17:matrix_add_4x1.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:17:matrix_add_4x1 is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:17:matrix_add_4x1.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:19:matrix_mult_empty.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:19:matrix_mult_empty is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:19:matrix_mult_empty.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:21:matrix_mult_3x3.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Test matrices_tests:21:matrix_mult_3x3 is successful.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: End test matrices_tests:21:matrix_mult_3x3.
+2020-11-27T15:37:11+00:00 VARUN-IHS#01 I: Start test matrices_tests:24:commutative_addition.
+2020-11-27T15:37:12+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:37:12+00:00 VARUN-IHS#01 I: law commutative_addition: 10000 relevant cases (10000 total)
+2020-11-27T15:37:12+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:37:12+00:00 VARUN-IHS#01 I: Test matrices_tests:24:commutative_addition is successful.
+2020-11-27T15:37:12+00:00 VARUN-IHS#01 I: End test matrices_tests:24:commutative_addition.
+2020-11-27T15:37:12+00:00 VARUN-IHS#01 I: Start test matrices_tests:26:associative_multiplication.
+2020-11-27T15:37:14+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:37:14+00:00 VARUN-IHS#01 I: law associative_multiplication: 10000 relevant cases (10000 total)
+2020-11-27T15:37:14+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:37:14+00:00 VARUN-IHS#01 I: Test matrices_tests:26:associative_multiplication is successful.
+2020-11-27T15:37:14+00:00 VARUN-IHS#01 I: End test matrices_tests:26:associative_multiplication.

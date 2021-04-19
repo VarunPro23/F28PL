@@ -1,0 +1,7 @@
+(test
+  (name MatricesTests)
+  (libraries Matrices oUnit qcheck))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
