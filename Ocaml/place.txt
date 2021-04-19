@@ -1,0 +1,3 @@
+This repostiory contains all the files for the Ocaml coursework.
+
+There are seven files, each file contains questions based on a concept and a test file to test the solution. 
