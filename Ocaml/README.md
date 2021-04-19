@@ -1,9 +1,9 @@
-# f28pl-2020-21-ocaml-coursework
+# f28pl ocaml coursework
 
 F28PL, 2020-2021, OCaml Coursework
 This is coursework and counts towards your final grade.
 
-The instructions are in `ocaml-coursework-sheet.pdf`.
+There are seven files, with each file containing questions for a concept along with a test file to test the solution.
 
 To test all seven coursework questions, run `dune runtest --profile
 release` within this directory.
