@@ -1,0 +1,7 @@
+(test
+  (name ChurchNumeralsTests)
+  (libraries ChurchNumerals oUnit qcheck))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))

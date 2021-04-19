@@ -1,0 +1,119 @@
+# dune runtest --profile release
+# OCAMLPARAM: unset
+# Workspace root:
+# /home/varun/f28pl-2020-21-ocaml-coursework-dubai/6-Church-numerals
+$ /usr/bin/nproc > /tmp/dunecd21bc.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache
+$ /usr/bin/ocamlc.opt -config > /tmp/dune69441b.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/home/varun/.opam/default/lib/toplevel"
+#  ; ocaml_bin = External "/usr/bin"
+#  ; ocaml = Ok External "/home/varun/.opam/default/bin/ocaml"
+#  ; ocamlc = External "/usr/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/usr/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/usr/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/usr/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/6-Church-numerals/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/6-Church-numerals/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/6-Church-numerals/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/6-Church-numerals/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/home/varun/.opam/default/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.08.1"
+#      ; standard_library_default = "/usr/lib/ocaml"
+#      ; standard_library = "/usr/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "x86_64-linux-gnu-gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "x86_64-linux-gnu-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "x86_64-linux-gnu-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = [ "-pg" ]
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "x86_64-linux-gnu-as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = true
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = false
+#      ; exec_magic_number = "Caml1999X025"
+#      ; cmi_magic_number = "Caml1999I025"
+#      ; cmo_magic_number = "Caml1999O025"
+#      ; cma_magic_number = "Caml1999A025"
+#      ; cmx_magic_number = "Caml1999Y025"
+#      ; cmxa_magic_number = "Caml1999Z025"
+#      ; ast_impl_magic_number = "Caml1999M025"
+#      ; ast_intf_magic_number = "Caml1999N025"
+#      ; cmxs_magic_number = "Caml1999D025"
+#      ; cmt_magic_number = "Caml1999T025"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl lib/ChurchNumerals.ml) > _build/default/lib/.ChurchNumerals.objs/ChurchNumerals.ml.d
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I lib/.ChurchNumerals.objs/byte -no-alias-deps -o lib/.ChurchNumerals.objs/byte/churchNumerals.cmo -c -impl lib/ChurchNumerals.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I lib/.ChurchNumerals.objs/byte -I lib/.ChurchNumerals.objs/native -intf-suffix .ml -no-alias-deps -o lib/.ChurchNumerals.objs/native/churchNumerals.cmx -c -impl lib/ChurchNumerals.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -a -o lib/ChurchNumerals.cmxa lib/.ChurchNumerals.objs/native/churchNumerals.cmx)
+$ (cd _build/default && /usr/bin/ocamlc.opt -w -40 -g -bin-annot -I test/.ChurchNumeralsTests.eobjs/byte -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I lib/.ChurchNumerals.objs/byte -I lib/.ChurchNumerals.objs/native -no-alias-deps -o test/.ChurchNumeralsTests.eobjs/byte/churchNumeralsTests.cmo -c -impl test/ChurchNumeralsTests.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -I test/.ChurchNumeralsTests.eobjs/byte -I test/.ChurchNumeralsTests.eobjs/native -I /home/varun/.opam/default/lib/bytes -I /home/varun/.opam/default/lib/oUnit -I /home/varun/.opam/default/lib/ounit2 -I /home/varun/.opam/default/lib/ounit2/advanced -I /home/varun/.opam/default/lib/qcheck -I /home/varun/.opam/default/lib/qcheck-core -I /home/varun/.opam/default/lib/qcheck-core/runner -I /home/varun/.opam/default/lib/qcheck-ounit -I /home/varun/.opam/default/lib/stdlib-shims -I lib/.ChurchNumerals.objs/byte -I lib/.ChurchNumerals.objs/native -intf-suffix .ml -no-alias-deps -o test/.ChurchNumeralsTests.eobjs/native/churchNumeralsTests.cmx -c -impl test/ChurchNumeralsTests.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w -40 -g -o test/ChurchNumeralsTests.exe lib/ChurchNumerals.cmxa /usr/lib/ocaml/unix.cmxa -I /usr/lib/ocaml /home/varun/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /home/varun/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/varun/.opam/default/lib/ounit2/oUnit.cmxa /home/varun/.opam/default/lib/qcheck-core/qcheck_core.cmxa /home/varun/.opam/default/lib/qcheck-core/runner/qcheck_runner.cmxa /home/varun/.opam/default/lib/qcheck-ounit/qcheck_ounit.cmxa /home/varun/.opam/default/lib/qcheck/qcheck.cmxa test/.ChurchNumeralsTests.eobjs/native/churchNumeralsTests.cmx)
+$ (cd _build/default/test && ./ChurchNumeralsTests.exe)
+> ...
+> Ran: 3 tests in: 0.16 seconds.
+> OK
