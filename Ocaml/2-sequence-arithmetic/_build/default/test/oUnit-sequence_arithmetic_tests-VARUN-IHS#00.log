@@ -1,0 +1,154 @@
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Runner: processes
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Chooser: simple
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration suite_name = "sequence_arithmetic_tests"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration cache_filename = "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/2-sequence-arithmetic/_build/default/test/oUnit-$(suite_name).cache"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration run_gc_full_major = "true"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration seed = "-1"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration display = "true"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration results_style_1_X = "false"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration testdata_dir = "none"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration health_check_interval = "1."
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration verbose = "false"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration chooser = "simple"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration output_html_dir = "none"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration processes_kill_period = "5."
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration runner = "processes"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration shards = "2"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration processes_grace_period = "5."
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration qcheck_verbose = "true"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration log_encoding = "utf-8"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration output_junit_file = "none"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration ci = "false"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration qcheck_long = "false"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Configuration output_file = "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/2-sequence-arithmetic/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Using 2 workers maximum.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Starting worker number VARUN-IHS#01.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Worker VARUN-IHS#01 started.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Starting worker number VARUN-IHS#02.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Worker VARUN-IHS#02 started.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:1:seq_add_test2, sequence_arithmetic_tests:0:seq_add_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:0:seq_add_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:1:seq_add_test2, sequence_arithmetic_tests:0:seq_add_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Start test sequence_arithmetic_tests:1:seq_add_test2.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:1:seq_add_test2, sequence_arithmetic_tests:0:seq_add_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:0:seq_add_test1 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Test sequence_arithmetic_tests:1:seq_add_test2 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:1:seq_add_test2, sequence_arithmetic_tests:0:seq_add_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:0:seq_add_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: End test sequence_arithmetic_tests:1:seq_add_test2.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:1:seq_add_test2, sequence_arithmetic_tests:0:seq_add_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:3:seq_add_test4, sequence_arithmetic_tests:2:seq_add_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Start test sequence_arithmetic_tests:2:seq_add_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:3:seq_add_test4.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:3:seq_add_test4, sequence_arithmetic_tests:2:seq_add_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Test sequence_arithmetic_tests:2:seq_add_test3 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:3:seq_add_test4, sequence_arithmetic_tests:2:seq_add_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: End test sequence_arithmetic_tests:2:seq_add_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:3:seq_add_test4 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:3:seq_add_test4, sequence_arithmetic_tests:2:seq_add_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:3:seq_add_test4.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:4:seq_mult_test1, sequence_arithmetic_tests:3:seq_add_test4.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Start test sequence_arithmetic_tests:4:seq_mult_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:5:seq_mult_test2, sequence_arithmetic_tests:4:seq_mult_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:5:seq_mult_test2.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:5:seq_mult_test2, sequence_arithmetic_tests:4:seq_mult_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Test sequence_arithmetic_tests:4:seq_mult_test1 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:5:seq_mult_test2 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:5:seq_mult_test2, sequence_arithmetic_tests:4:seq_mult_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: End test sequence_arithmetic_tests:4:seq_mult_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:5:seq_mult_test2.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:5:seq_mult_test2, sequence_arithmetic_tests:4:seq_mult_test1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:7:seq_mult_test4, sequence_arithmetic_tests:6:seq_mult_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:6:seq_mult_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:7:seq_mult_test4, sequence_arithmetic_tests:6:seq_mult_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Start test sequence_arithmetic_tests:7:seq_mult_test4.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:7:seq_mult_test4, sequence_arithmetic_tests:6:seq_mult_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:6:seq_mult_test3 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:7:seq_mult_test4, sequence_arithmetic_tests:6:seq_mult_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:6:seq_mult_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:7:seq_mult_test4, sequence_arithmetic_tests:6:seq_mult_test3.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Test sequence_arithmetic_tests:7:seq_mult_test4 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:8:seq_add_empty1, sequence_arithmetic_tests:7:seq_mult_test4.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: End test sequence_arithmetic_tests:7:seq_mult_test4.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:8:seq_add_empty1, sequence_arithmetic_tests:7:seq_mult_test4.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:9:seq_add_empty2, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Start test sequence_arithmetic_tests:9:seq_add_empty2.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:9:seq_add_empty2, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:9:seq_add_empty2, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: law seq_add_empty2: 10000 relevant cases (10000 total)
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:9:seq_add_empty2, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: law seq_add_empty1: 10000 relevant cases (10000 total)
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:9:seq_add_empty2, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Test sequence_arithmetic_tests:9:seq_add_empty2 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:9:seq_add_empty2, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: End test sequence_arithmetic_tests:9:seq_add_empty2.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:9:seq_add_empty2, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:10:seq_add_zeros, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Start test sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:10:seq_add_zeros, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:8:seq_add_empty1 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:10:seq_add_zeros, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:10:seq_add_zeros, sequence_arithmetic_tests:8:seq_add_empty1.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Still 2 tests running : sequence_arithmetic_tests:11:seq_mult_zeros, sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:11:seq_mult_zeros, sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:11:seq_mult_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Still 2 tests running : sequence_arithmetic_tests:11:seq_mult_zeros, sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:11:seq_mult_zeros, sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: law seq_add_zeros: 1000 relevant cases (1000 total)
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: 
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Still 2 tests running : sequence_arithmetic_tests:11:seq_mult_zeros, sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:11:seq_mult_zeros, sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: Test sequence_arithmetic_tests:10:seq_add_zeros is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: law seq_mult_zeros: 1000 relevant cases (1000 total)
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Still 2 tests running : sequence_arithmetic_tests:11:seq_mult_zeros, sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:11:seq_mult_zeros, sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#02 I: End test sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Still 2 tests running : sequence_arithmetic_tests:11:seq_mult_zeros, sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 2 tests running: sequence_arithmetic_tests:11:seq_mult_zeros, sequence_arithmetic_tests:10:seq_add_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Still 1 tests running : sequence_arithmetic_tests:11:seq_mult_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 1 tests running: sequence_arithmetic_tests:11:seq_mult_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:11:seq_mult_zeros is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Still 1 tests running : sequence_arithmetic_tests:11:seq_mult_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 1 tests running: sequence_arithmetic_tests:11:seq_mult_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:11:seq_mult_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Still 1 tests running : sequence_arithmetic_tests:11:seq_mult_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 1 tests running: sequence_arithmetic_tests:11:seq_mult_zeros.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: 0 tests running: .
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Worker VARUN-IHS#02 has ended.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Worker VARUN-IHS#01 has ended.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Used 2 worker during test execution.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Run 6 tests with shard VARUN-IHS#02.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Run 6 tests with shard VARUN-IHS#01.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Check health of shard VARUN-IHS#02, 4 times.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Check health of shard VARUN-IHS#01, 1 times.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: ==============
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Summary:
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:11:seq_mult_zeros is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:10:seq_add_zeros is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:8:seq_add_empty1 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:9:seq_add_empty2 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:7:seq_mult_test4 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:6:seq_mult_test3 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:5:seq_mult_test2 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:4:seq_mult_test1 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:3:seq_add_test4 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:2:seq_add_test3 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:1:seq_add_test2 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Test sequence_arithmetic_tests:0:seq_add_test1 is successful.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Ran: 12 tests in: 0.28 seconds.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Cases: 12.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Tried: 12.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Errors: 0.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Failures: 0.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Skip: 0.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Todo: 0.
+2020-12-09T09:01:43+00:00 VARUN-IHS#00 I: Timeout: 0.

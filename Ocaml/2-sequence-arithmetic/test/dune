@@ -1,0 +1,7 @@
+(test
+  (name SequenceArithmeticTests)
+  (libraries SequenceArithmetic oUnit qcheck))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
