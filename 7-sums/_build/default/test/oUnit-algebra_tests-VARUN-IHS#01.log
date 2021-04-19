@@ -1,0 +1,34 @@
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Start test algebra_tests:0:string_of_exp_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Test algebra_tests:0:string_of_exp_test1 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: End test algebra_tests:0:string_of_exp_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Start test algebra_tests:3:eval_test2.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Test algebra_tests:3:eval_test2 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: End test algebra_tests:3:eval_test2.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Start test algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Test algebra_tests:4:flatten_test1 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: End test algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Start test algebra_tests:7:compare_sorted_comm.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: law compare_sorted_comm: 0 relevant cases (1 total)
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: test `compare_sorted_comm` raised exception `Failure("not impl")`
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: on `Pair (x0, x7)`
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Raised at file "stdlib.ml", line 29, characters 17-33
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "lib/Sums.ml", line 150, characters 33-49
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "src/core/QCheck.ml", line 1396, characters 9-14
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "src/core/QCheck.ml", line 1494, characters 22-50
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Test algebra_tests:7:compare_sorted_comm exited with an error.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: test `compare_sorted_comm` raised exception `Failure("not impl")`
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: on `Pair (x0, x7)`
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Raised at file "stdlib.ml", line 29, characters 17-33
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "lib/Sums.ml", line 150, characters 33-49
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "src/core/QCheck.ml", line 1396, characters 9-14
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "src/core/QCheck.ml", line 1494, characters 22-50
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E:  in test algebra_tests:7:compare_sorted_comm.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Raised at file "src/core/QCheck.ml", line 1720, characters 6-82
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: End test algebra_tests:7:compare_sorted_comm.
