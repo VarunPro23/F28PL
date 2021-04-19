@@ -1,0 +1,45 @@
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:0:add_test1.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:0:add_test1 is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:0:add_test1.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:2:mult1_test.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:2:mult1_test is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:2:mult1_test.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:5:rev_test2.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:5:rev_test2 is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:5:rev_test2.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:6:rev_test3.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:6:rev_test3 is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:6:rev_test3.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:8:tuple_second_test2.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:8:tuple_second_test2 is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:8:tuple_second_test2.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:11:member_test1.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:11:member_test1 is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:11:member_test1.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:12:member_test2.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:12:member_test2 is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:12:member_test2.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:14:member_test4.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:14:member_test4 is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:14:member_test4.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:16:cube_test2.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:16:cube_test2 is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:16:cube_test2.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:19:add_zero.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: law add_zero: 1000 relevant cases (1000 total)
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:19:add_zero is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:19:add_zero.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:20:mult_test_zero.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: law mult_test_zero: 1000 relevant cases (1000 total)
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:20:mult_test_zero is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:20:mult_test_zero.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Start test sequence_arithmetic_tests:23:append_test_empty.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: law append_test_empty: 1000 relevant cases (1000 total)
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: 
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: Test sequence_arithmetic_tests:23:append_test_empty is successful.
+2020-11-27T15:38:11+00:00 VARUN-IHS#01 I: End test sequence_arithmetic_tests:23:append_test_empty.

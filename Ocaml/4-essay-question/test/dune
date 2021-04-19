@@ -1,0 +1,7 @@
+(test
+  (name EssayTests)
+  (libraries Essay oUnit qcheck))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
