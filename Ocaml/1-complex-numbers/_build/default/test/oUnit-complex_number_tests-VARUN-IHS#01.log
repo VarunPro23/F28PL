@@ -1,0 +1,27 @@
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Start test complex_number_tests:0:complex_add_test1.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Test complex_number_tests:0:complex_add_test1 is successful.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: End test complex_number_tests:0:complex_add_test1.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Start test complex_number_tests:2:complex_mult_test1.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Test complex_number_tests:2:complex_mult_test1 is successful.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: End test complex_number_tests:2:complex_mult_test1.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Start test complex_number_tests:5:complex_mult_test4.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Test complex_number_tests:5:complex_mult_test4 is successful.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: End test complex_number_tests:5:complex_mult_test4.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Start test complex_number_tests:6:complex_add_commutative.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: law complex_add_commutative: 10000 relevant cases (10000 total)
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Test complex_number_tests:6:complex_add_commutative is successful.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: End test complex_number_tests:6:complex_add_commutative.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Start test complex_number_tests:9:mult_associative.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: law mult_associative: 10000 relevant cases (10000 total)
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Test complex_number_tests:9:mult_associative is successful.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: End test complex_number_tests:9:mult_associative.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Start test complex_number_tests:11:complex_mult_zero.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: law complex_mult_zero: 10000 relevant cases (10000 total)
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: 
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: Test complex_number_tests:11:complex_mult_zero is successful.
+2020-12-09T09:00:56+00:00 VARUN-IHS#01 I: End test complex_number_tests:11:complex_mult_zero.

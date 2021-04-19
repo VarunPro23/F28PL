@@ -1,0 +1,7 @@
+(test
+  (name ComplexNumbersTests)
+  (libraries ComplexNumbers oUnit qcheck))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
