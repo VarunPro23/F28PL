@@ -1,0 +1,161 @@
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Runner: processes
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Chooser: simple
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration suite_name = "algebra_tests"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration cache_filename = "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/7-sums/_build/default/test/oUnit-$(suite_name).cache"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration run_gc_full_major = "true"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration seed = "-1"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration display = "true"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration results_style_1_X = "false"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration testdata_dir = "none"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration health_check_interval = "1."
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration verbose = "false"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration chooser = "simple"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration output_html_dir = "none"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration processes_kill_period = "5."
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration runner = "processes"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration shards = "2"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration processes_grace_period = "5."
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration qcheck_verbose = "true"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration log_encoding = "utf-8"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration output_junit_file = "none"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration ci = "false"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration qcheck_long = "false"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Configuration output_file = "/home/varun/f28pl-2020-21-ocaml-coursework-dubai/7-sums/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Using 2 workers maximum.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Starting worker number VARUN-IHS#01.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Worker VARUN-IHS#01 started.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Starting worker number VARUN-IHS#02.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Worker VARUN-IHS#02 started.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:1:string_of_exp_test2, algebra_tests:0:string_of_exp_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Start test algebra_tests:0:string_of_exp_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:1:string_of_exp_test2, algebra_tests:0:string_of_exp_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: Start test algebra_tests:1:string_of_exp_test2.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:1:string_of_exp_test2, algebra_tests:0:string_of_exp_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Test algebra_tests:0:string_of_exp_test1 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: Test algebra_tests:1:string_of_exp_test2 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:1:string_of_exp_test2, algebra_tests:0:string_of_exp_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: End test algebra_tests:0:string_of_exp_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: End test algebra_tests:1:string_of_exp_test2.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:1:string_of_exp_test2, algebra_tests:0:string_of_exp_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:3:eval_test2, algebra_tests:2:eval_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: Start test algebra_tests:2:eval_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Start test algebra_tests:3:eval_test2.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:3:eval_test2, algebra_tests:2:eval_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: Test algebra_tests:2:eval_test1 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Test algebra_tests:3:eval_test2 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:3:eval_test2, algebra_tests:2:eval_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: End test algebra_tests:2:eval_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: End test algebra_tests:3:eval_test2.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:3:eval_test2, algebra_tests:2:eval_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:5:flatten_sorted_test1, algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: Start test algebra_tests:5:flatten_sorted_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:5:flatten_sorted_test1, algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Start test algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:5:flatten_sorted_test1, algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 E: Test algebra_tests:5:flatten_sorted_test1 exited with an error.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 E: Failure("not impl") in test algebra_tests:5:flatten_sorted_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 E: Raised at file "stdlib.ml", line 29, characters 17-33
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 E: Called from file "test/SumsTests.ml", line 44, characters 15-86
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:5:flatten_sorted_test1, algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: End test algebra_tests:5:flatten_sorted_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:5:flatten_sorted_test1, algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:6:compare_assoc, algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: Start test algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:6:compare_assoc, algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Test algebra_tests:4:flatten_test1 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:6:compare_assoc, algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: End test algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:6:compare_assoc, algebra_tests:4:flatten_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Still 2 tests running : algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: Start test algebra_tests:7:compare_sorted_comm.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Still 2 tests running : algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: law compare_sorted_comm: 0 relevant cases (1 total)
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Still 2 tests running : algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: test `compare_sorted_comm` raised exception `Failure("not impl")`
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: on `Pair (x0, x7)`
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Raised at file "stdlib.ml", line 29, characters 17-33
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "lib/Sums.ml", line 150, characters 33-49
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "src/core/QCheck.ml", line 1396, characters 9-14
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "src/core/QCheck.ml", line 1494, characters 22-50
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Still 2 tests running : algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Test algebra_tests:7:compare_sorted_comm exited with an error.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: test `compare_sorted_comm` raised exception `Failure("not impl")`
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: on `Pair (x0, x7)`
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Raised at file "stdlib.ml", line 29, characters 17-33
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "lib/Sums.ml", line 150, characters 33-49
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "src/core/QCheck.ml", line 1396, characters 9-14
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "src/core/QCheck.ml", line 1494, characters 22-50
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E:  in test algebra_tests:7:compare_sorted_comm.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Raised at file "src/core/QCheck.ml", line 1720, characters 6-82
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Still 2 tests running : algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#01 I: End test algebra_tests:7:compare_sorted_comm.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Still 2 tests running : algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 2 tests running: algebra_tests:7:compare_sorted_comm, algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Still 1 tests running : algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 1 tests running: algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: law compare_assoc: 10000 relevant cases (10000 total)
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Still 1 tests running : algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 1 tests running: algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: Test algebra_tests:6:compare_assoc is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Still 1 tests running : algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 1 tests running: algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#02 I: End test algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Still 1 tests running : algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 1 tests running: algebra_tests:6:compare_assoc.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: 0 tests running: .
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Worker VARUN-IHS#01 has ended.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Worker VARUN-IHS#02 died unexpectedly.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Used 2 worker during test execution.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Run 4 tests with shard VARUN-IHS#02.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Run 4 tests with shard VARUN-IHS#01.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Check health of shard VARUN-IHS#02, 2 times.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Check health of shard VARUN-IHS#01, 5 times.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: ==============
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Summary:
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Test algebra_tests:6:compare_assoc is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Test algebra_tests:7:compare_sorted_comm exited with an error.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: test `compare_sorted_comm` raised exception `Failure("not impl")`
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: on `Pair (x0, x7)`
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Raised at file "stdlib.ml", line 29, characters 17-33
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Called from file "lib/Sums.ml", line 150, characters 33-49
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Called from file "src/core/QCheck.ml", line 1396, characters 9-14
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Called from file "src/core/QCheck.ml", line 1494, characters 22-50
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E:  in test algebra_tests:7:compare_sorted_comm.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Raised at file "src/core/QCheck.ml", line 1720, characters 6-82
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Test algebra_tests:4:flatten_test1 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Test algebra_tests:5:flatten_sorted_test1 exited with an error.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Failure("not impl") in test algebra_tests:5:flatten_sorted_test1.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Raised at file "stdlib.ml", line 29, characters 17-33
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Called from file "test/SumsTests.ml", line 44, characters 15-86
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 E: 
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Test algebra_tests:3:eval_test2 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Test algebra_tests:2:eval_test1 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Test algebra_tests:1:string_of_exp_test2 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Test algebra_tests:0:string_of_exp_test1 is successful.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Ran: 8 tests in: 0.16 seconds.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Cases: 8.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Tried: 8.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Errors: 2.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Failures: 0.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Skip: 0.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Todo: 0.
+2020-11-27T18:26:46+00:00 VARUN-IHS#00 I: Timeout: 0.
