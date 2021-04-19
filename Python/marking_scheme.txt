@@ -1,0 +1,40 @@
+Python Coursework.  This counts for 40% of your final mark.  
+Deadline is 17 October 2020 (end week 5).   
+
+Here's an indicative marking scheme; this is non-binding and may get updated:
+
+Question 1: 8 marks
+    Question 1a: 4 marks
+    Question 1b: 4 marks
+
+Question 2: 12 marks
+    Question 2a: 4 marks
+    Question 2b: 4 marks
+    Question 2c: 4 marks
+
+Question 3: 16 marks
+    ismatrix:    2 marks
+    matrixshape: 2 marks
+    matrixadd:   4 marks
+    matrixmult:  8 marks
+
+Question 4: 10 marks
+
+Question 5: 6 marks
+
+Question 6: 8 marks
+    fenc: 4 marks
+    fdec: 4 marks
+
+Question 7: 6 marks
+
+Question 8: 6 marks
+
+Question 9: 6 marks
+
+Question 10: 12 marks
+
+Question 11: 10 marks
+
+
+Total: 100 marks
